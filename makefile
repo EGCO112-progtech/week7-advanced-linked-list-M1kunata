@@ -1,5 +1,5 @@
 compile: assignment.c
-	 gcc assignment.c -o ll
+	 gcc assignment.c -o assignment
 
 
 run: assignment
