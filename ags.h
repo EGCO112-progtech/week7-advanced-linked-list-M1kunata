@@ -164,7 +164,6 @@ void printListR( LLPtr currentPtr )
       puts( "List is empty.\n" );
    } // end if
    else {
-      puts( "The list is:" );
       while(currentPtr->nextPtr!=NULL)currentPtr=currentPtr->nextPtr;
       // while not the end of the list
       while(currentPtr->pPtr!=NULL) {
